@@ -110,7 +110,7 @@ Based on analysis of my public GitHub profile, here are some of the key reposito
 
 - 🌐 **Portfolio / Blog**: [srinithishs.qzz.io](https://srinithishs.qzz.io/)
 - 💼 **LinkedIn**: [linkedin.com/in/srinithishs](https://linkedin.com/in/srinithishs)
-- ✉️ **Email**: [contact@srinithish.dev](mailto:contact@srinithish.dev)
+- ✉️ **Email**: [contact@srinithish.dev](mailto:srinithishs004@gmail.com)
 
 <br />
 
