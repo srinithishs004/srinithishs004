@@ -66,6 +66,17 @@ Based on analysis of my public GitHub profile, here are some of the key reposito
 
 ---
 
+### 📊 Live Profile Metrics
+
+<!-- START_SECTION:dynamic_stats -->
+- 🌌 **Total Contributions**: **33** (in the last year)
+- 📂 **Public Repositories**: **17**
+- 👥 **Followers**: **2**
+- 🤝 **Following**: **0**
+<!-- END_SECTION:dynamic_stats -->
+
+---
+
 ### 📈 Contribution & System Activity
 
 <div align="center">
