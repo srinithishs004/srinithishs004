@@ -8,41 +8,57 @@
 
 <div align="center">
   <h3>Software Engineer • Open Source Contributor • Cloud Infrastructure Engineer</h3>
-  <p>Building scalable web applications, designing robust cloud architectures, and contributing to the open-source ecosystem.</p>
+  <p><strong>Building software that solves real-world problems.</strong></p>
+  <p>Focused on building scalable systems, contributing to open source, and learning in public.</p>
 </div>
 
 ---
 
-### 🌌 About Me
+### 🌌 Visualizing the Journey
 
-I am a software engineer specialized in building modern web applications and cloud infrastructure. With a deep passion for writing clean, efficient code and automating complex deployment lifecycles, I design systems that are resilient, scalable, and secure.
+From local development to cloud production, I architect end-to-end solutions that scale. I believe in open collaboration, testing in public, and building clean, reproducible infrastructure.
 
-- 🔭 **Currently working on**: Scaling cloud-native microservices and open-source tooling.
-- ☁️ **Infrastructure focus**: Containerized environments, AWS architecture, and automated CI/CD pipelines.
-- ⚡ **Key values**: Performance optimization, developer productivity, and clean design patterns.
+- 🔭 **Learning & Building**: Designing real-time automation systems and modern web interfaces.
+- ⚙️ **Automation & DevOps**: Writing workflows to automate pull requests, testing, and continuous deployment.
+- ☁️ **Infrastructure & Architecture**: Coordinating backend APIs, database nodes, and cloud topologies.
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 📂 Featured Projects & Open Source contributions
+
+Based on analysis of my public GitHub profile, here are some of the key repositories and open-source contributions I work on:
+
+* 📱 **[DeoHealth](https://github.com/srinithishs004/DeoHealth)**: Fitness tracking Android mobile application developed in Kotlin.
+* ⚙️ **[airflow](https://github.com/srinithishs004/airflow)** (Fork/Contributor): Apache Airflow platform for orchestrating and programmatically scheduling workflows.
+* 🔄 **[n8n](https://github.com/srinithishs004/n8n)** (Fork/Contributor): Fair-code workflow automation engine with AI node extensions.
+* 🏡 **[home-assistant.io](https://github.com/srinithishs004/home-assistant.io)** (Fork/Contributor): Dynamic open-source smart-home user documentation.
+* 📊 **[mermaid](https://github.com/srinithishs004/mermaid)** (Fork/Contributor): Markdown-inspired text-to-diagram rendering engine.
+
+---
+
+### 🛠️ Core Technologies & Ecosystem
 
 <table align="center" border="0" cellpadding="5">
   <tr>
     <td align="left" valign="top" width="33%">
-      <strong>Languages</strong><br />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <strong>Languages & Frameworks</strong><br />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /><br />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /><br />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
     </td>
     <td align="left" valign="top" width="33%">
       <strong>Cloud & Infrastructure</strong><br />
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" /><br />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /><br />
+      <img src="https://img.shields.io/badge/MQTT-3C5280?style=flat-square&logo=mqtt&logoColor=white" />
     </td>
     <td align="left" valign="top" width="33%">
-      <strong>Backend & Web</strong><br />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+      <strong>Workflow & Collaboration</strong><br />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /><br />
+      <img src="https://img.shields.io/badge/Open_Source-3DA639?style=flat-square&logo=opensourceinitiative&logoColor=white" /><br />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" /><br />
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
     </td>
   </tr>
@@ -50,7 +66,13 @@ I am a software engineer specialized in building modern web applications and clo
 
 ---
 
-### 📊 GitHub Analytics & Insights
+### 📈 Contribution & System Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=srinithishs004&theme=react-dark&bg_color=000000&color=007acc&line=007acc&point=ffffff&area=true&hide_border=false" width="100%" alt="Contribution Graph" />
+</div>
+
+<br />
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=srinithishs004&show_icons=true&theme=dark&bg_color=000000&title_color=ffffff&text_color=a0a0a0&icon_color=007acc&border_color=1f2937&hide_border=false" alt="Sri Nithish's GitHub Stats" />
@@ -66,10 +88,17 @@ I am a software engineer specialized in building modern web applications and clo
 
 ---
 
-### 🤝 Let's Connect
+### ⚡ Recent GitHub Activity
 
+<!-- START_SECTION:activity -->
+<!-- END_SECTION:activity -->
+
+---
+
+### 🤝 Connect & Collaborate
+
+- 🌐 **Portfolio / Blog**: [srinithishs.qzz.io](https://srinithishs.qzz.io/)
 - 💼 **LinkedIn**: [linkedin.com/in/srinithishs](https://linkedin.com/in/srinithishs)
-- 🌐 **Portfolio**: [srinithish.dev](https://srinithish.dev)
 - ✉️ **Email**: [contact@srinithish.dev](mailto:contact@srinithish.dev)
 
 <br />
