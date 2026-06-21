@@ -1,7 +1,7 @@
 # Sri Nithish S
 
 <div align="center">
-  <img src="github_hero_banner.png" width="100%" alt="Sri Nithish S Hero Banner" />
+  <img src="hero_animation.svg" width="100%" alt="Sri Nithish S Hero Animation" />
 </div>
 
 <br />
