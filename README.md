@@ -84,7 +84,7 @@ I believe in open collaboration and learning in public. Here are some of the ope
 ### 📊 Live Profile Metrics
 
 <!-- START_SECTION:dynamic_stats -->
-- 🌌 **Total Contributions**: **37** (in the last year)
+- 🌌 **Total Contributions**: **38** (in the last year)
 - 📂 **Public Repositories**: **17**
 - 👥 **Followers**: **2**
 - 🤝 **Following**: **0**
@@ -107,6 +107,4 @@ I believe in open collaboration and learning in public. Here are some of the ope
 
 <br />
 
-<div align="center">
-  <sub>Designed with a futuristic, animated developer aesthetic. Base-black #000000 theme.</sub>
-</div>
+
