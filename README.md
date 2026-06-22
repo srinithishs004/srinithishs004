@@ -1,7 +1,7 @@
 # Sri Nithish S
 
 <div align="center">
-  <img src="hero_animation.svg" width="100%" alt="Sri Nithish S Hero Animation" />
+  <img src="hero_animation.svg" width="100%" alt="Sri Nithish S Hero Animation" style="pointer-events: none;" />
 </div>
 
 <br />
@@ -27,7 +27,7 @@ I am a Software Engineer and Computer Science graduate who builds across the ful
 ### 🛠️ Core Technologies &amp; Ecosystem
 
 <div align="center">
-  <img src="tech_stack.svg" width="100%" alt="Sri Nithish's Tech Stack" />
+  <img src="tech_stack.svg" width="100%" alt="Sri Nithish's Tech Stack" style="pointer-events: none;" />
 </div>
 
 ---
@@ -35,7 +35,7 @@ I am a Software Engineer and Computer Science graduate who builds across the ful
 ### 📂 Featured Real-World Projects
 
 <div align="center">
-  <img src="projects.svg" width="100%" alt="Sri Nithish's Projects Showcase" />
+  <img src="projects.svg" width="100%" alt="Sri Nithish's Projects Showcase" style="pointer-events: none;" />
 </div>
 
 ---
@@ -54,7 +54,7 @@ I believe in open collaboration and learning in public. Here are some of the ope
 ### 🎓 Academic Standing &amp; Achievements
 
 <div align="center">
-  <img src="achievements.svg" width="100%" alt="Sri Nithish's Education &amp; Achievements" />
+  <img src="achievements.svg" width="100%" alt="Sri Nithish's Education &amp; Achievements" style="pointer-events: none;" />
 </div>
 
 ---
@@ -84,7 +84,7 @@ I believe in open collaboration and learning in public. Here are some of the ope
 ### 📊 Live Profile Metrics
 
 <!-- START_SECTION:dynamic_stats -->
-- 🌌 **Total Contributions**: **38** (in the last year)
+- 🌌 **Total Contributions**: **39** (in the last year)
 - 📂 **Public Repositories**: **17**
 - 👥 **Followers**: **2**
 - 🤝 **Following**: **0**
