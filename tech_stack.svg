@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="100%">
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-badge" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="grad-tech" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#121214" />
+      <stop offset="100%" stop-color="#1c1c1f" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes float-y {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    
+    .bg {
+      fill: #000000;
+    }
+    
+    .badge-container {
+      animation: float-y 3.5s infinite ease-in-out;
+      transform-origin: center;
+    }
+    
+    .badge-bg {
+      fill: url(#grad-tech);
+      stroke: #2c2c30;
+      stroke-width: 1.2;
+      rx: 6px;
+    }
+    
+    .badge-bg:hover {
+      stroke: #4364F7;
+      filter: url(#glow-badge);
+    }
+    
+    .text-title {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      font-size: 11px;
+      fill: #e1e4e8;
+    }
+    
+    .icon {
+      font-size: 13px;
+    }
+  </style>
+
+  <!-- Backdrop -->
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- Row 1 Badges -->
+  <!-- Python -->
+  <g class="badge-container" style="animation-delay: 0s;" transform="translate(30, 20)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">🐍</text>
+    <text x="38" y="24" class="text-title">Python</text>
+  </g>
+  <!-- JavaScript -->
+  <g class="badge-container" style="animation-delay: -0.4s;" transform="translate(160, 20)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">💛</text>
+    <text x="38" y="24" class="text-title">JavaScript</text>
+  </g>
+  <!-- Java -->
+  <g class="badge-container" style="animation-delay: -0.8s;" transform="translate(290, 20)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">☕</text>
+    <text x="38" y="24" class="text-title">Java</text>
+  </g>
+  <!-- React -->
+  <g class="badge-container" style="animation-delay: -1.2s;" transform="translate(420, 20)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">⚛️</text>
+    <text x="38" y="24" class="text-title">React.js</text>
+  </g>
+  <!-- Node.js -->
+  <g class="badge-container" style="animation-delay: -1.6s;" transform="translate(550, 20)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">💚</text>
+    <text x="38" y="24" class="text-title">Node.js</text>
+  </g>
+  <!-- AWS -->
+  <g class="badge-container" style="animation-delay: -2s;" transform="translate(680, 20)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">☁️</text>
+    <text x="38" y="24" class="text-title">AWS</text>
+  </g>
+
+  <!-- Row 2 Badges -->
+  <!-- Docker -->
+  <g class="badge-container" style="animation-delay: -0.6s;" transform="translate(30, 85)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">🐳</text>
+    <text x="38" y="24" class="text-title">Docker</text>
+  </g>
+  <!-- PostgreSQL -->
+  <g class="badge-container" style="animation-delay: -1s;" transform="translate(160, 85)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">🐘</text>
+    <text x="38" y="24" class="text-title">Postgres</text>
+  </g>
+  <!-- MySQL -->
+  <g class="badge-container" style="animation-delay: -1.4s;" transform="translate(290, 85)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">🐬</text>
+    <text x="38" y="24" class="text-title">MySQL</text>
+  </g>
+  <!-- MongoDB -->
+  <g class="badge-container" style="animation-delay: -1.8s;" transform="translate(420, 85)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">🍃</text>
+    <text x="38" y="24" class="text-title">MongoDB</text>
+  </g>
+  <!-- Git -->
+  <g class="badge-container" style="animation-delay: -2.2s;" transform="translate(550, 85)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">🌳</text>
+    <text x="38" y="24" class="text-title">Git</text>
+  </g>
+  <!-- GitHub -->
+  <g class="badge-container" style="animation-delay: -2.6s;" transform="translate(680, 85)">
+    <rect width="110" height="40" class="badge-bg" />
+    <text x="15" y="24" class="icon">🐙</text>
+    <text x="38" y="24" class="text-title">GitHub</text>
+  </g>
+</svg>

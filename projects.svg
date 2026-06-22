@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 180" width="100%" height="100%">
+  <defs>
+    <!-- Card Gradients -->
+    <linearGradient id="grad-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0c" />
+      <stop offset="100%" stop-color="#141417" />
+    </linearGradient>
+
+    <!-- Pulsing Glow Filter -->
+    <filter id="glow-led" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes led-pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    @keyframes float-card {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+
+    .bg {
+      fill: #000000;
+    }
+    .project-card {
+      fill: url(#grad-card);
+      stroke: #222226;
+      stroke-width: 1.2;
+      rx: 8px;
+    }
+    .project-card:hover {
+      stroke: #4364F7;
+    }
+    .card-container {
+      animation: float-card 4s infinite ease-in-out;
+      transform-origin: center;
+    }
+    .title {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 13.5px;
+      fill: #ffffff;
+    }
+    .desc {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 11px;
+      fill: #8e8e93;
+    }
+    .tag-bg {
+      fill: #1a1a20;
+      rx: 3px;
+    }
+    .tag-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      fill: #4364F7;
+    }
+    .led {
+      fill: #38ef7d;
+      filter: url(#glow-led);
+      animation: led-pulse 2s infinite ease-in-out;
+    }
+    .led-orange {
+      fill: #ffbd2e;
+      filter: url(#glow-led);
+      animation: led-pulse 2.2s infinite ease-in-out;
+    }
+    .led-blue {
+      fill: #6FB1FC;
+      filter: url(#glow-led);
+      animation: led-pulse 1.8s infinite ease-in-out;
+    }
+    .status-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      fill: #5c5c64;
+    }
+  </style>
+
+  <!-- Backdrop -->
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- Card 1: Document Data Duplicate Alert System -->
+  <g class="card-container" style="animation-delay: 0s;" transform="translate(30, 15)">
+    <rect width="245" height="150" class="project-card" />
+    <!-- Title -->
+    <text x="20" y="32" class="title">Duplicate Alert System</text>
+    <!-- Description -->
+    <text x="20" y="55" class="desc">Automatically detects redundant</text>
+    <text x="20" y="72" class="desc">document downloads using file hashing</text>
+    <text x="20" y="89" class="desc">and metadata validation dashboards.</text>
+    <!-- Tags -->
+    <g transform="translate(20, 108)">
+      <rect width="45" height="18" class="tag-bg" />
+      <text x="22.5" y="12" text-anchor="middle" class="tag-text">Python</text>
+    </g>
+    <g transform="translate(70, 108)">
+      <rect width="40" height="18" class="tag-bg" />
+      <text x="20" y="12" text-anchor="middle" class="tag-text">React</text>
+    </g>
+    <g transform="translate(115, 108)">
+      <rect width="40" height="18" class="tag-bg" />
+      <text x="20" y="12" text-anchor="middle" class="tag-text">MySQL</text>
+    </g>
+    <!-- Status LED -->
+    <circle cx="25" cy="138" r="4.5" class="led" />
+    <text x="36" y="141" class="status-text">Active Protection</text>
+  </g>
+
+  <!-- Card 2: Surplus Food Management System -->
+  <g class="card-container" style="animation-delay: -1.3s;" transform="translate(302, 15)">
+    <rect width="245" height="150" class="project-card" />
+    <!-- Title -->
+    <text x="20" y="32" class="title">Surplus Food Manager</text>
+    <!-- Description -->
+    <text x="20" y="55" class="desc">Connects food providers with local</text>
+    <text x="20" y="72" class="desc">recipients, implementing listings,</text>
+    <text x="20" y="89" class="desc">claims, and tracking workflows.</text>
+    <!-- Tags -->
+    <g transform="translate(20, 108)">
+      <rect width="35" height="18" class="tag-bg" />
+      <text x="17.5" y="12" text-anchor="middle" class="tag-text">Java</text>
+    </g>
+    <g transform="translate(60, 108)">
+      <rect width="65" height="18" class="tag-bg" />
+      <text x="32.5" y="12" text-anchor="middle" class="tag-text">Spring Boot</text>
+    </g>
+    <g transform="translate(130, 108)">
+      <rect width="40" height="18" class="tag-bg" />
+      <text x="20" y="12" text-anchor="middle" class="tag-text">React</text>
+    </g>
+    <!-- Status LED -->
+    <circle cx="25" cy="138" r="4.5" class="led-orange" />
+    <text x="36" y="141" class="status-text">Fulfilment Live</text>
+  </g>
+
+  <!-- Card 3: Cloud & Connected Systems Platform -->
+  <g class="card-container" style="animation-delay: -2.6s;" transform="translate(575, 15)">
+    <rect width="245" height="150" class="project-card" />
+    <!-- Title -->
+    <text x="20" y="32" class="title">Cloud Connected IoT</text>
+    <!-- Description -->
+    <text x="20" y="55" class="desc">Collects, processes, and displays</text>
+    <text x="20" y="72" class="desc">real-time device telemetry data via</text>
+    <text x="20" y="89" class="desc">MQTT pathways and dockerized services.</text>
+    <!-- Tags -->
+    <g transform="translate(20, 108)">
+      <rect width="35" height="18" class="tag-bg" />
+      <text x="17.5" y="12" text-anchor="middle" class="tag-text">AWS</text>
+    </g>
+    <g transform="translate(60, 108)">
+      <rect width="45" height="18" class="tag-bg" />
+      <text x="22.5" y="12" text-anchor="middle" class="tag-text">Docker</text>
+    </g>
+    <g transform="translate(110, 108)">
+      <rect width="35" height="18" class="tag-bg" />
+      <text x="17.5" y="12" text-anchor="middle" class="tag-text">MQTT</text>
+    </g>
+    <g transform="translate(150, 108)">
+      <rect width="45" height="18" class="tag-bg" />
+      <text x="22.5" y="12" text-anchor="middle" class="tag-text">Node.js</text>
+    </g>
+    <!-- Status LED -->
+    <circle cx="25" cy="138" r="4.5" class="led-blue" />
+    <text x="36" y="141" class="status-text">Telemetry Active</text>
+  </g>
+</svg>
