@@ -1,6 +1,7 @@
 import urllib.request
 import re
 import os
+import sys
 
 username = "srinithishs004"
 readme_path = os.path.join(os.path.dirname(__file__), "README.md")
@@ -12,7 +13,7 @@ try:
     with urllib.request.urlopen(req) as response:
         contrib_html = response.read().decode('utf-8')
     match = re.search(r'(\d+)\s+contributions\s+in\s+the\s+last\s+year', contrib_html, re.IGNORECASE)
-    contributions = match.group(1) if match else "0"
+    contributions = match.group(1) if match else "N/A"
 except Exception as e:
     print("Error getting contributions:", e)
     contributions = "N/A"
@@ -25,18 +26,23 @@ try:
         profile_html = response.read().decode('utf-8')
     
     followers_match = re.search(r'<span[^>]*class="text-bold color-fg-default">([^<]+)</span>\s*followers', profile_html)
-    followers = followers_match.group(1).strip() if followers_match else "0"
+    followers = followers_match.group(1).strip() if followers_match else "N/A"
 
     following_match = re.search(r'<span[^>]*class="text-bold color-fg-default">([^<]+)</span>\s*following', profile_html)
-    following = following_match.group(1).strip() if following_match else "0"
+    following = following_match.group(1).strip() if following_match else "N/A"
 
     repos_match = re.search(r'Repositories\s*<span[^>]*class="Counter"[^>]*>([^<]+)</span>', profile_html)
-    repos = repos_match.group(1).strip() if repos_match else "0"
+    repos = repos_match.group(1).strip() if repos_match else "N/A"
 except Exception as e:
     print("Error getting profile stats:", e)
     followers, following, repos = "N/A", "N/A", "N/A"
 
 print(f"Stats fetched: Contributions: {contributions}, Repos: {repos}, Followers: {followers}, Following: {following}")
+
+# Safeguard check: Do not update README if any stats failed to fetch
+if "N/A" in [contributions, repos, followers, following]:
+    print("Safeguard triggered: One or more stats failed to fetch. Aborting README update to preserve existing metrics.")
+    sys.exit(0)
 
 # 3. Read README.md
 if os.path.exists(readme_path):

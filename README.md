@@ -22,21 +22,7 @@ I am a Software Engineer and Computer Science graduate who builds across the ful
 - 🔭 **Current Focus**: Designing real-time automation systems, IoT telemetry pipelines, and scalable APIs.
 - ⚙️ **Philosophy**: Great software isn't defined by a single technology — it's about understanding how all pieces work together, from user interfaces and APIs to cloud services and real-world devices.
 
----
 
-### 🛠️ Core Technologies &amp; Ecosystem
-
-<div align="center">
-  <img src="tech_stack.svg" width="100%" alt="Sri Nithish's Tech Stack" style="pointer-events: none;" />
-</div>
-
----
-
-### 📂 Featured Real-World Projects
-
-<div align="center">
-  <img src="projects.svg" width="100%" alt="Sri Nithish's Projects Showcase" style="pointer-events: none;" />
-</div>
 
 ---
 
@@ -49,13 +35,7 @@ I believe in open collaboration and learning in public. Here are some of the ope
 * 🏡 **[Home Assistant](https://github.com/home-assistant/core)**: Contributed to smart home integration architectures, event-driven automations, and Python-based IoT patterns.
 * 🔄 **[n8n](https://github.com/n8n-io/n8n)**: Developed workflow automations, integrated REST APIs, and configured low-code orchestration flows in Node.js.
 
----
 
-### 🎓 Academic Standing &amp; Achievements
-
-<div align="center">
-  <img src="achievements.svg" width="100%" alt="Sri Nithish's Education &amp; Achievements" style="pointer-events: none;" />
-</div>
 
 ---
 
