@@ -74,8 +74,8 @@ I believe in open collaboration and learning in public. Here are some of the ope
 
 ### ⚡ Recent GitHub Activity
 
-<!-- START_SECTION:activity -->
-<!-- END_SECTION:activity -->
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 

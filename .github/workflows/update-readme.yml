@@ -42,4 +42,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: "chore: update recent GitHub activity [skip ci]"
-          MAX_LIMIT: 5
+          MAX_LINES: 5
