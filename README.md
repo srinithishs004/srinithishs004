@@ -64,8 +64,8 @@ I believe in open collaboration and learning in public. Here are some of the ope
 ### 📊 Live Profile Metrics
 
 <!-- START_SECTION:dynamic_stats -->
-- 🌌 **Total Contributions**: **98** (in the last year)
-- 📂 **Public Repositories**: **20**
+- 🌌 **Total Contributions**: **101** (in the last year)
+- 📂 **Public Repositories**: **21**
 - 👥 **Followers**: **2**
 - 🤝 **Following**: **1**
 <!-- END_SECTION:dynamic_stats -->
