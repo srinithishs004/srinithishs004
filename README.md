@@ -75,8 +75,8 @@ I believe in open collaboration and learning in public. Here are some of the ope
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#7](https://github.com/srinithishs004/dispute-copilot/pull/7) in [srinithishs004/dispute-copilot](https://github.com/srinithishs004/dispute-copilot)
-2. 💪 Opened PR [#7](https://github.com/srinithishs004/dispute-copilot/pull/7) in [srinithishs004/dispute-copilot](https://github.com/srinithishs004/dispute-copilot)
+1. 🎉 Merged PR [#8](https://github.com/srinithishs004/dispute-copilot/pull/8) in [srinithishs004/dispute-copilot](https://github.com/srinithishs004/dispute-copilot)
+2. 💪 Opened PR [#8](https://github.com/srinithishs004/dispute-copilot/pull/8) in [srinithishs004/dispute-copilot](https://github.com/srinithishs004/dispute-copilot)
 <!--END_SECTION:activity-->
 
 ---
